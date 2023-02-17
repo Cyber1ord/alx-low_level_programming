@@ -1,16 +1,17 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
+
 /**
- * main - entry point
- * Description:assigning number to variable n
- * Return: (0)
+ * main - program entry point
+ *
+ * Return: zero (0)
+ *
  */
-
 int main(void)
-
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
@@ -22,7 +23,7 @@ int main(void)
 		printf("%d is negative\n", n);
 	} else
 	{
-		printf("Number is zero\n");
+		printf("%d is zero\n", n);
 	}
 	return (0);
 }
