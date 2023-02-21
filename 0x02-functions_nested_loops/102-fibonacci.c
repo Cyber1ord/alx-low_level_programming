@@ -4,18 +4,14 @@
  * Return: Always 0
  *
  */
-int main(void)
-{
-	int i;
-	long int current = 1, prev = 1, temp;
-
-	printf("%ld, %ld", current, prev);
-	for (i = 2; i < 50; i++)
-	{
-		temp = current;
-		current += prev;
-		prev = temp;
-		printf(", %ld", current);
+int main() {
+	int a = 1, b = 2, c;
+	printf("%d, %d", a, b);
+	for (int i = 3; i <= 50; i++) {
+		c = a + b;
+		printf(", %d", c);
+		a = b;
+		b = c;
 	}
 	printf("\n");
 	return (0);
