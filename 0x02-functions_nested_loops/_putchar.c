@@ -1,5 +1,5 @@
 #include <unistd.h>
-
+#include "main.h"
 /**
  * _purchar - writes the character c to stout
  * @c: the character to print

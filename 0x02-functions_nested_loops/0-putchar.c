@@ -2,9 +2,7 @@
 #include "main.h"
 #include <unistd.h>
 /**
- *
- * Main - Entry
- *
+ * main - entry point
  * Description: Print _putchar line by line
  *
  * Return: Always 0 (Success)
