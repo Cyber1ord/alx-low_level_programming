@@ -4,15 +4,18 @@
  * Return: Always 0
  *
  */
-int main() {
-	int a = 1, b = 2, c;
-	printf("%d, %d", a, b);
-	for (int i = 3; i <= 50; i++) {
-		c = a + b;
-		printf(", %d", c);
-		a = b;
-		b = c;
+int main(void) {
+	unsigned long fib[50] = {1, 2};
+
+	for (size_t i = 2; i < 50; i++) {
+		fib[i] = fib[i-1] + fib[i-2];
 	}
-	printf("\n");
-	return (0);
+
+	for (size_t i = 0; i < 49; i++) {
+		printf("%lu, ", fib[i]);
+	}
+
+	printf("%lu\n", fib[49]);
+
+	return 0;
 }
