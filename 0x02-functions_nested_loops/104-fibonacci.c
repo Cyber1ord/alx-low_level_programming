@@ -1,22 +1,38 @@
 #include <stdio.h>
 /**
- * main - Prints the first 98 Fibonacci numbers, separated by a comma
- * followed by a space, starting with 1 and 2.
- * Return: Always 0.
+ *main - main block
+ *Return: Always zero (success)
  */
 int main(void)
 {
-	int i;
-	unsigned long int fib1 = 1, fib2 = 2, fib3;
+	unsigned long int l, m, n, m_one, m_two, n_one, n_two;
 
-	printf("%lu, %lu", fib1, fib2);
-	for (i = 2; i < 98; i++)
+	m = 1;
+	n = 2;
+
+	printf("%lu", m);
+	for (l = 1; l < 91; l++)
 	{
-		fib3 = fib1 + fib2;
-		printf(", %lu", fib3);
-		fib1 = fib2;
-		fib2 = fib3;
+		printf(", %lu", n);
+		n = n + m;
+		m = n - m;
+	}
+	m_one = m / 1000000000;
+	m_two = m % 1000000000;
+	n_one = n / 1000000000;
+	n_two = n % 1000000000;
+
+	for (l = 92; l < 99; ++l)
+	{
+		printf(", %lu", n_one + (n_two / 1000000000));
+		printf("%lu", n_two % 1000000000);
+		n_one = n_one + m_one;
+		m_one = n_one - m_one;
+		n_two = n_two + m_two;
+		m_two = n_two - m_two;
 	}
 	printf("\n");
 	return (0);
 }
+
+
