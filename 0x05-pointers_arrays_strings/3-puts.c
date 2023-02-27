@@ -1,15 +1,22 @@
+#include "main.h"
 #include <stdio.h>
+
 /**
- * printString - Function that print a string, follow by a new line
- * Return: Always 1
- * @str: string to print
- *
+ * _puts -  function that print a string
+ * @str: string to be printed
+ * Return: length of string
  */
-void puts(char *str)
+void _puts(char *str)
 {
-	while (*str != '\0')
+	int i;
+
+	i = 0;
+	while (str[i] != '\0')
 	{
-		_putchar(*str++);
+		_putchar(str[i]);
+		i++;
 	}
 	_putchar('\n');
+
 }
+
