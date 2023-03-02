@@ -1,0 +1,15 @@
+https://raw.githubusercontent.com/dsoft02/alx-low_level_programming/main/0x06-pointers_arrays_strings/0-strcat.c\n
+https://raw.githubusercontent.com/dsoft02/alx-low_level_programming/main/0x06-pointers_arrays_strings/1-strncat.c\n
+https://raw.githubusercontent.com/dsoft02/alx-low_level_programming/main/0x06-pointers_arrays_strings/100-rot13.c\n
+https://raw.githubusercontent.com/dsoft02/alx-low_level_programming/main/0x06-pointers_arrays_strings/101-print_number.c\n
+https://raw.githubusercontent.com/dsoft02/alx-low_level_programming/main/0x06-pointers_arrays_strings/102-magic.c\n
+https://raw.githubusercontent.com/dsoft02/alx-low_level_programming/main/0x06-pointers_arrays_strings/103-infinite_add.c\n
+https://raw.githubusercontent.com/dsoft02/alx-low_level_programming/main/0x06-pointers_arrays_strings/104-print_buffer.c\n
+https://raw.githubusercontent.com/dsoft02/alx-low_level_programming/main/0x06-pointers_arrays_strings/2-strncpy.c\n
+https://raw.githubusercontent.com/dsoft02/alx-low_level_programming/main/0x06-pointers_arrays_strings/3-strcmp.c\n
+https://raw.githubusercontent.com/dsoft02/alx-low_level_programming/main/0x06-pointers_arrays_strings/4-rev_array.c\n
+https://raw.githubusercontent.com/dsoft02/alx-low_level_programming/main/0x06-pointers_arrays_strings/5-string_toupper.c\n
+https://raw.githubusercontent.com/dsoft02/alx-low_level_programming/main/0x06-pointers_arrays_strings/6-cap_string.c\n
+https://raw.githubusercontent.com/dsoft02/alx-low_level_programming/main/0x06-pointers_arrays_strings/7-leet.c\n
+https://raw.githubusercontent.com/dsoft02/alx-low_level_programming/main/0x06-pointers_arrays_strings/main.c\n
+https://raw.githubusercontent.com/dsoft02/alx-low_level_programming/main/0x06-pointers_arrays_strings/main.h 
