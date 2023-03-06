@@ -10,5 +10,18 @@
 char *_memset(char *s, char b, unsigned int n);
 
 
+/**
+ * _memcpy - function that copies n bytes from memory area src to memory area dest
+ * @dest: destination memory area
+ * @src: source memory area
+ * @n: number of bytes to copy
+ *
+ * Return: a pointer to dest
+ */
+
+char *_memcpy(char *dest, char *src, unsigned int n);
+
+
+char *_strchr(char *s, char c);
 
 #endif
