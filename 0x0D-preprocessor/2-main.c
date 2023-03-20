@@ -1,7 +1,11 @@
+#include <stdlib.h>
 #include <stdio.h>
-
-int main(void) {
-  printf("Compiled from file: %s\n", __FILE__);
-  return 0;
+/**
+ * main - main file returns file name
+ * Return: returns 0 always
+ */
+int main(void)
+{
+	printf("%s\n", __FILE__);
+	return (0);
 }
-
