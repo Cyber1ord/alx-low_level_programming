@@ -4,15 +4,13 @@
 #define BUFFER_SIZE 1024
 
 /**
- * file_err - check for files error
- * main - program that copies files from one file to other
+ * file_err - check for file errors
+ * @file_from: file descriptor of the source file
+ * @file_to: file descriptor of the destination file
  * @argc: the number of arguments (must be 3)
- * @argv: strings of argument in array*
- * @file_from: file_from.
- * @file_to: file_to.
+ * @argv: strings of argument in array
  * Return: no return.
  */
-
 void file_err(int file_from, int file_to, int argc, char *argv[])
 {
 	if (file_from == -1)
@@ -37,13 +35,11 @@ void file_err(int file_from, int file_to, int argc, char *argv[])
  * main - program that copies files from one file to other
  * @argc: the number of arguments (must be 3)
  * @argv: strings of argument in array
- *
  * Return: 0 on success, exit with error code on failure
  */
-
 int main(int argc, char *argv[])
 {
-	int file_from, file_to, num_read, num_written, close_from, close_to, file_err;
+	int file_from, file_to, num_read, num_written, close_from, close_to;
 	char buffer[BUFFER_SIZE];
 
 	file_from = open(argv[1], O_RDONLY);
