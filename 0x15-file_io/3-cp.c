@@ -43,7 +43,7 @@ void file_err(int file_from, int file_to, int argc, char *argv[])
 
 int main(int argc, char *argv[])
 {
-	int file_from, file_to, num_read, num_written, close_from, close_to;
+	int file_from, file_to, num_read, num_written, close_from, close_to, file_err;
 	char buffer[BUFFER_SIZE];
 
 	file_from = open(argv[1], O_RDONLY);
