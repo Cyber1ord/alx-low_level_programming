@@ -58,7 +58,6 @@ int main(int argc, char *argv[])
 			file_err(0, -1, argc, argv);
 		}
 	} while (num_read > 0);
-
 	close_from = close(file_from);
 	if (close_from == -1)
 	{
